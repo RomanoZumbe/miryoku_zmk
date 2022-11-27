@@ -4,7 +4,6 @@
 // target: zmk
 
 #pragma once
-#include "../localization/german.h"
 
 #define MIRYOKU_ALTERNATIVES_BASE_AZERTY_FLIP \
 &kp A,             &kp Z,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
