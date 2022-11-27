@@ -366,11 +366,10 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 // U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_SYM \
-&kp DE_LCBR,       &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp RBRC,          &kp DE_QUOT,       &kp DE_LABK,       &kp DE_RABK,       &u_to_U_TAP,       U_BOOT,            \
-&kp COLON,         &kp DLLR,          &kp PRCT,          &kp CRRT,          &kp PLUS,          &kp DE_ACUT,       &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp DE_BSLS,          \
-&kp TILDE,         &kp EXCL,          &kp AT,            &kp HASH,          &kp PIPE,          U_NA,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          &kp DE_QUES,              \
-U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
-
+&kp DE_LCBR,       &kp DE_AMPR,       &kp DE_ASTR,       &kp DE_LPRN,       &kp DE_RCBR,       U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
+&kp DE_COLN,       &kp DE_DLR,        &kp DE_PERC,       &kp DE_CIRC,       &kp DE_PLUS,       U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
+&kp DE_TILD,       &kp DE_EXLM,       &kp DE_AT,         &kp DE_HASH,       &kp DE_PIPE,       U_NA,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
+U_NP,              U_NP,              &kp DE_LPRN,       &kp DE_RPRN,       &kp DE_UNDS,       U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_FUN_FLIP \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              &kp PSCRN,         &kp F7,            &kp F8,            &kp F9,            &kp F12,           \
