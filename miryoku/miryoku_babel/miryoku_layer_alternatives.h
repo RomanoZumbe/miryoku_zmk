@@ -366,7 +366,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 // U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_SYM \
-&kp LOC_LCBR,       &kp LOC_AMPR,       &kp LOC_ASTR,       &kp LOC_LPRN,       &kp LOC_RCBR,       U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
+&kp LOC_LCBR,       &kp LOC_AMPR,       &kp LOC_ASTR,       &kp LOC_QUOT,       &kp LOC_RCBR,       U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
 &kp LOC_COLN,       &kp LOC_DLR,        &kp LOC_PERC,       &kp LOC_CIRC,       &kp LOC_PLUS,       U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
 &kp LOC_TILD,       &kp LOC_EXLM,       &kp LOC_AT,         &kp LOC_HASH,       &kp LOC_PIPE,       U_NA,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp LOC_LPRN,       &kp LOC_RPRN,       &kp LOC_UNDS,       U_NA,              U_NA,              U_NA,              U_NP,              U_NP
