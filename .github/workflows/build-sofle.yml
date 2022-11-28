@@ -1,7 +1,7 @@
 # Copyright 2022 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-name: "Build sofle left"
+name: "Build sofle"
 on: workflow_dispatch
 jobs:
   build:
@@ -10,7 +10,9 @@ jobs:
     with:
       board: '["nice_nano_v2"]'
       shield: '["sofle_left","sofle_right"]'
-      kconfig: '["CONFIG_ZMK_DISPLAY=y"]'
+      kconfig: '["CONFIG_ZMK_DISPLAY=y\nCONFIG_ZMK_MOUSE=y"]'
+      custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
       alphas: '["QWERTZ"]'
       nav: '["vi"]'
       clipboard: '["Win"]'
+      branches: '["zmkfirmware/zmk/main ftc/zmk/mouse-ftc"]'
