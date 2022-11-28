@@ -121,9 +121,9 @@ U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPC),  U_LT
 
 #define MIRYOKU_ALTERNATIVES_BASE_QWERTZ \
 &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Z,             &kp U,             &kp I,             &kp O,             &kp P,             \
-U_MT(LGUI, A),     &kp S,             U_MT(LCTRL, D),    U_MT(LSHFT, F),    &kp G,             &kp H,             U_MT(LSHFT, J),    U_MT(LCTRL, K),    U_MT(LALT, L),     U_MT(LGUI, DE_DOT),   \
-U_LT(U_BUTTON, Y), U_MT(LALT, X),     &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp DE_MINS,       U_MT(RALT, DE_COMM),  U_LT(U_BUTTON, DE_SLSH),\
-U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_MOUSE, TAB),  U_LT(U_NAV, RET),U_LT(U_SYM, SPC),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
+U_MT(LGUI, A),     &kp S,             U_MT(LCTRL, D),    U_MT(LSHFT, F),    &kp G,             &kp H,             U_MT(LSHFT, J),    U_MT(LCTRL, K),    U_MT(LALT, L),     U_MT(LGUI, LOC_DOT),   \
+U_LT(U_BUTTON, Y), U_MT(LALT, X),     &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp LOC_MINS,       U_MT(RALT, LOC_COMM),  U_LT(U_BUTTON, LOC_SLSH),\
+U_NP,              U_NP,              U_LT(U_MEDIA, ESC), U_LT(U_NAV, RET),  U_LT(U_MOUSE, TAB), U_LT(U_NUM, BSPC),  U_LT(U_SYM, SPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 
 #define MIRYOKU_ALTERNATIVES_TAP_AZERTY_FLIP \
@@ -297,8 +297,8 @@ U_NA,              &kp RALT,          &u_to_U_SYM,       &u_to_U_MOUSE,     U_NA
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_MOUSE_VI \
-U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_RDO,             &kp DE_UDIA,       U_CPY,             &kp DE_ODIA,       U_UND,             \
-&kp DE_ADIA,       &kp DE_SS,         &kp LCTRL,         &kp LSHFT,         U_NA,              U_MS_L,            U_MS_D,            U_MS_U,            U_MS_R,            U_NU,              \
+U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_RDO,             &kp LOC_UDIA,       U_CPY,             &kp LOC_ODIA,       U_UND,             \
+&kp LOC_ADIA,       &kp LOC_SS,         &kp LCTRL,         &kp LSHFT,         U_NA,              U_MS_L,            U_MS_D,            U_MS_U,            U_MS_R,            U_NU,              \
 U_NA,              &kp RALT,          &u_to_U_SYM,       &u_to_U_MOUSE,     U_NA,              U_WH_L,            U_WH_D,            U_WH_U,            U_WH_R,            U_NU,              \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
 
@@ -366,10 +366,10 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 // U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_SYM \
-&kp DE_LCBR,       &kp DE_AMPR,       &kp DE_ASTR,       &kp DE_LPRN,       &kp DE_RCBR,       U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
-&kp DE_COLN,       &kp DE_DLR,        &kp DE_PERC,       &kp DE_CIRC,       &kp DE_PLUS,       U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
-&kp DE_TILD,       &kp DE_EXLM,       &kp DE_AT,         &kp DE_HASH,       &kp DE_PIPE,       U_NA,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
-U_NP,              U_NP,              &kp DE_LPRN,       &kp DE_RPRN,       &kp DE_UNDS,       U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+&kp LOC_LCBR,       &kp LOC_AMPR,       &kp LOC_ASTR,       &kp LOC_LPRN,       &kp LOC_RCBR,       U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
+&kp LOC_COLN,       &kp LOC_DLR,        &kp LOC_PERC,       &kp LOC_CIRC,       &kp LOC_PLUS,       U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
+&kp LOC_TILD,       &kp LOC_EXLM,       &kp LOC_AT,         &kp LOC_HASH,       &kp LOC_PIPE,       U_NA,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
+U_NP,              U_NP,              &kp LOC_LPRN,       &kp LOC_RPRN,       &kp LOC_UNDS,       U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_FUN_FLIP \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              &kp PSCRN,         &kp F7,            &kp F8,            &kp F9,            &kp F12,           \

@@ -12,57 +12,57 @@
  * └────┴────┴────┴────────────────────────┴────┴────┴────┴────┘
  */
 // Row 1
-#define DE_CIRC GRAVE       // ^ (dead)
-#define DE_1    NUMBER_1    // 1
-#define DE_2    NUMBER_2    // 2
-#define DE_3    NUMBER_3    // 3
-#define DE_4    NUMBER_4    // 4
-#define DE_5    NUMBER_5    // 5
-#define DE_6    NUMBER_6    // 6
-#define DE_7    NUMBER_7    // 7
-#define DE_8    NUMBER_8    // 8
-#define DE_9    NUMBER_9    // 9
-#define DE_0    NUMBER_0    // 0
-#define DE_SS   MINUS       // ß
-#define DE_ACUT EQUAL       // ´ (dead)
+#define LOC_CIRC GRAVE       // ^ (dead)
+#define LOC_1    NUMBER_1    // 1
+#define LOC_2    NUMBER_2    // 2
+#define LOC_3    NUMBER_3    // 3
+#define LOC_4    NUMBER_4    // 4
+#define LOC_5    NUMBER_5    // 5
+#define LOC_6    NUMBER_6    // 6
+#define LOC_7    NUMBER_7    // 7
+#define LOC_8    NUMBER_8    // 8
+#define LOC_9    NUMBER_9    // 9
+#define LOC_0    NUMBER_0    // 0
+#define LOC_SS   MINUS       // ß
+#define LOC_ACUT EQUAL       // ´ (dead)
 // Row 2
-#define DE_Q    Q    // Q
-#define DE_W    W    // W
-#define DE_E    E    // E
-#define DE_R    R    // R
-#define DE_T    T    // T
-#define DE_Z    Y    // Z
-#define DE_U    U    // U
-#define DE_I    I    // I
-#define DE_O    O    // O
-#define DE_P    P    // P
-#define DE_UDIA LEFT_BRACKET  // Ü
-#define DE_PLUS RIGHT_BRACKET // +
+#define LOC_Q    Q    // Q
+#define LOC_W    W    // W
+#define LOC_E    E    // E
+#define LOC_R    R    // R
+#define LOC_T    T    // T
+#define LOC_Z    Y    // Z
+#define LOC_U    U    // U
+#define LOC_I    I    // I
+#define LOC_O    O    // O
+#define LOC_P    P    // P
+#define LOC_UDIA LEFT_BRACKET  // Ü
+#define LOC_PLUS RIGHT_BRACKET // +
 // Row 3
-#define DE_A    A    // A
-#define DE_S    S    // S
-#define DE_D    D    // D
-#define DE_F    F    // F
-#define DE_G    G    // G
-#define DE_H    H    // H
-#define DE_J    J    // J
-#define DE_K    K    // K
-#define DE_L    L    // L
-#define DE_ODIA SEMICOLON// Ö
-#define DE_ADIA SINGLE_QUOTE// Ä
-#define DE_HASH NON_US_HASH// #
+#define LOC_A    A    // A
+#define LOC_S    S    // S
+#define LOC_D    D    // D
+#define LOC_F    F    // F
+#define LOC_G    G    // G
+#define LOC_H    H    // H
+#define LOC_J    J    // J
+#define LOC_K    K    // K
+#define LOC_L    L    // L
+#define LOC_ODIA SEMICOLON// Ö
+#define LOC_ADIA SINGLE_QUOTE// Ä
+#define LOC_HASH NON_US_HASH// #
 // Row 4
-#define DE_LABK NON_US_BACKSLASH// <
-#define DE_Y    Z    // Y
-#define DE_X    X    // X
-#define DE_C    C    // C
-#define DE_V    V    // V
-#define DE_B    B    // B
-#define DE_N    N    // N
-#define DE_M    M    // M
-#define DE_COMM COMMA // ,
-#define DE_DOT  PERIOD  // .
-#define DE_MINS SLASH// -
+#define LOC_LABK NON_US_BACKSLASH// <
+#define LOC_Y    Z    // Y
+#define LOC_X    X    // X
+#define LOC_C    C    // C
+#define LOC_V    V    // V
+#define LOC_B    B    // B
+#define LOC_N    N    // N
+#define LOC_M    M    // M
+#define LOC_COMM COMMA // ,
+#define LOC_DOT  PERIOD  // .
+#define LOC_MINS SLASH// -
 
 /* Shifted symbols
  * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───────┐
@@ -78,28 +78,28 @@
  * └────┴────┴────┴────────────────────────┴────┴────┴────┴────┘
  */
 // Row 1
-#define DE_DEG  LS(DE_CIRC) // °
-#define DE_EXLM LS(DE_1)    // !
-#define DE_DQUO LS(DE_2)    // "
-#define DE_SECT LS(DE_3)    // §
-#define DE_DLR  LS(DE_4)    // $
-#define DE_PERC LS(DE_5)    // %
-#define DE_AMPR LS(DE_6)    // &
-#define DE_SLSH LS(DE_7)    // /
-#define DE_LPRN LS(DE_8)    // (
-#define DE_RPRN LS(DE_9)    // )
-#define DE_EQL  LS(DE_0)    // =
-#define DE_QUES LS(DE_SS)   // ?
-#define DE_GRV  LS(DE_ACUT) // ` (dead)
+#define LOC_DEG  LS(LOC_CIRC) // °
+#define LOC_EXLM LS(LOC_1)    // !
+#define LOC_DQUO LS(LOC_2)    // "
+#define LOC_SECT LS(LOC_3)    // §
+#define LOC_DLR  LS(LOC_4)    // $
+#define LOC_PERC LS(LOC_5)    // %
+#define LOC_AMPR LS(LOC_6)    // &
+#define LOC_SLSH LS(LOC_7)    // /
+#define LOC_LPRN LS(LOC_8)    // (
+#define LOC_RPRN LS(LOC_9)    // )
+#define LOC_EQL  LS(LOC_0)    // =
+#define LOC_QUES LS(LOC_SS)   // ?
+#define LOC_GRV  LS(LOC_ACUT) // ` (dead)
 // Row 2
-#define DE_ASTR LS(DE_PLUS) // *
+#define LOC_ASTR LS(LOC_PLUS) // *
 // Row 3
-#define DE_QUOT LS(DE_HASH) // '
+#define LOC_QUOT LS(LOC_HASH) // '
 // Row 4
-#define DE_RABK LS(DE_LABK) // >
-#define DE_SCLN LS(DE_COMM) // ;
-#define DE_COLN LS(DE_DOT)  // :
-#define DE_UNDS LS(DE_MINS) // _
+#define LOC_RABK LS(LOC_LABK) // >
+#define LOC_SCLN LS(LOC_COMM) // ;
+#define LOC_COLN LS(LOC_DOT)  // :
+#define LOC_UNDS LS(LOC_MINS) // _
 
 /* AltGr symbols
  * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───────┐
@@ -115,17 +115,17 @@
  * └────┴────┴────┴────────────────────────┴────┴────┴────┴────┘
  */
 // Row 1
-#define DE_SUP2 RA(DE_2)    // ²
-#define DE_SUP3 RA(DE_3)    // ³
-#define DE_LCBR RA(DE_7)    // {
-#define DE_LBRC RA(DE_8)    // [
-#define DE_RBRC RA(DE_9)    // ]
-#define DE_RCBR RA(DE_0)    // }
-#define DE_BSLS RA(DE_SS)   // (backslash)
+#define LOC_SUP2 RA(LOC_2)    // ²
+#define LOC_SUP3 RA(LOC_3)    // ³
+#define LOC_LCBR RA(LOC_7)    // {
+#define LOC_LBRC RA(LOC_8)    // [
+#define LOC_RBRC RA(LOC_9)    // ]
+#define LOC_RCBR RA(LOC_0)    // }
+#define LOC_BSLS RA(LOC_SS)   // (backslash)
 // Row 2
-#define DE_AT   RA(DE_Q)    // @
-#define DE_EURO RA(DE_E)    // €
-#define DE_TILD RA(DE_PLUS) // ~
+#define LOC_AT   RA(LOC_Q)    // @
+#define LOC_EURO RA(LOC_E)    // €
+#define LOC_TILD RA(LOC_PLUS) // ~
 // Row 4
-#define DE_PIPE RA(DE_LABK) // |
-#define DE_MICR RA(DE_M)    // µ
+#define LOC_PIPE RA(LOC_LABK) // |
+#define LOC_MICR RA(LOC_M)    // µ
