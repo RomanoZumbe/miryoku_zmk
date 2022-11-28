@@ -120,9 +120,9 @@ U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp V,             &kp 
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPC),  U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_QWERTZ \
-&kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Z,             &kp U,             &kp I,             &kp O,             &kp P,             \
-U_MT(LGUI, A),     &kp S,             U_MT(LCTRL, D),    U_MT(LSHFT, F),    &kp G,             &kp H,             U_MT(LSHFT, J),    U_MT(LCTRL, K),    U_MT(LALT, L),     U_MT(LGUI, LOC_DOT),   \
-U_LT(U_BUTTON, Y), U_MT(LALT, X),     &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp LOC_MINS,       U_MT(RALT, LOC_COMM),  U_LT(U_BUTTON, u_slsh_ques),\
+U_MT(LGUI,Q),             &kp W,             &kp E,             &kp R,             &kp T,             &kp Z,             &kp U,             &kp I,             U_MT(RALT, O),             U_MT(LGUI, P),             \
+&kp A,     &kp S,             U_MT(LCTRL, D),    U_MT(LSHFT, F),    &kp G,             &kp H,             U_MT(LSHFT, J),    U_MT(LCTRL, K),    U_MT(LALT, L),      &u_quot_dquo,   \
+U_LT(U_BUTTON, Y), U_MT(LALT, X),     &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &u_comm_lbak,        &u_dot_rabk,  &u_slsh_ques,\
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC), U_LT(U_NAV, RET),  U_LT(U_MOUSE, TAB), U_LT(U_NUM, BSPC),  U_LT(U_SYM, SPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 
@@ -348,9 +348,9 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 
 #define MIRYOKU_ALTERNATIVES_NUM \
 &kp LOC_LBRC,          &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp LOC_RBRC,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
-&kp LOC_COMM,          &kp NUM_4,         &kp NUM_5,         &kp NUM_6,         &kp LOC_EQL,           U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
-&kp LOC_TILD,         &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp LOC_BSLS,          U_NA,              &u_to_U_NUM,       &u_to_U_NAV,       &kp RALT,          U_NA,              \
-U_NP,              U_NP,              &kp LOC_DOT,           &kp NUM_0,         &kp LOC_BSLS,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+&kp LOC_SCLN,          &kp NUM_4,         &kp NUM_5,         &kp NUM_6,         &kp LOC_EQL,           U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
+&kp LOC_GRV,         &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp LOC_BSLS,          U_NA,              &u_to_U_NUM,       &u_to_U_NAV,       &kp RALT,          U_NA,              \
+U_NP,              U_NP,              &kp LOC_DOT,           &kp NUM_0,         &kp LOC_MINS,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 
 #define MIRYOKU_ALTERNATIVES_SYM_FLIP \
@@ -366,7 +366,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 // U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_SYM \
-&kp LOC_LCBR,       &kp LOC_AMPR,       &kp LOC_ASTR,       &kp LOC_QUOT,       &kp LOC_RCBR,       U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
+&kp LOC_LCBR,       &kp LOC_AMPR,       &kp LOC_ASTR,       &kp LOC_LPRN,       &kp LOC_RCBR,       U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
 &kp LOC_COLN,       &kp LOC_DLR,        &kp LOC_PERC,       &kp LOC_CIRC,       &kp LOC_PLUS,       U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
 &kp LOC_TILD,       &kp LOC_EXLM,       &kp LOC_AT,         &kp LOC_HASH,       &kp LOC_PIPE,       U_NA,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp LOC_LPRN,       &kp LOC_RPRN,       &kp LOC_UNDS,       U_NA,              U_NA,              U_NA,              U_NP,              U_NP

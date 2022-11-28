@@ -46,3 +46,7 @@ MIRYOKU_SHIFT_FUNCTION(u_ep_tog, &ext_power EP_TOG, &ext_power EP_OFF)
 #endif
 
 MIRYOKU_SHIFT_FUNCTION(u_slsh_ques, &kp LOC_SLSH, &kp LOC_QUES)
+MIRYOKU_SHIFT_FUNCTION(u_scln_coln, &kp LOC_SCLN, &kp LOC_COLN)
+MIRYOKU_SHIFT_FUNCTION(u_comm_lbak, &kp LOC_COMM, &kp LOC_LABK)
+MIRYOKU_SHIFT_FUNCTION(u_dot_rabk, &kp LOC_DOT, &kp LOC_RABK)
+MIRYOKU_SHIFT_FUNCTION(u_quot_dquo, &kp LOC_QUOT, &kp LOC_DQUO)
