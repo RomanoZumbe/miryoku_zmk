@@ -45,4 +45,4 @@ MIRYOKU_SHIFT_FUNCTION(u_ep_tog, &ext_power EP_TOG, &ext_power EP_OFF)
 
 #endif
 
-MIRYOKU_SHIFT_FUNCTION(u_slsh_ques, &kp LOC_SLSH, &kp LOC_QUES)
+MIRYOKU_SHIFT_FUNCTION(u_slsh_ques, &kp LOC_A, &kp LOC_B)
