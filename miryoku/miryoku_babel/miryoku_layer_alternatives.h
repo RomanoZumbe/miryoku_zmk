@@ -123,7 +123,7 @@ U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPC),  U_LT
 U_MT(LGUI,Q),             &kp W,             &kp E,             &kp R,             &kp T,             &kp Z,             &kp U,             &kp I,             U_MT(RALT, O),             U_MT(LGUI, P),             \
 &kp A,     &kp S,             U_MT(LCTRL, D),    U_MT(LSHFT, F),    &kp G,             &kp H,             U_MT(LSHFT, J),    U_MT(LCTRL, K),    U_MT(LALT, L),      &u_quot_dquo,   \
 U_LT(U_BUTTON, Y), U_MT(LALT, X),     &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &u_comm_lbak,        &u_dot_rabk,  &u_slsh_ques,\
-U_NP,              U_NP,              U_LT(U_MEDIA, ESC), U_LT(U_NAV, RET),  U_LT(U_MOUSE, TAB), U_LT(U_NUM, BSPC),  U_LT(U_SYM, SPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
+U_NP,              U_NP,              U_LT(U_MEDIA, ESC), U_LT(U_NAV, RET),  U_LT(U_MOUSE, TAB), U_LT(U_SYM, SPC),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 
 #define MIRYOKU_ALTERNATIVES_TAP_AZERTY_FLIP \
